@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta name="GAM" content="Напоминания ВПЛ Украины, initial-scale=1.0">
+    <title>Календарь ВПЛ</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="1.css">
+    <script src="js/1.js" defer ></script>
+    <!-- <link rel="stylesheet" href="styleProekt.css"> -->
+
+
+ </head>
+<body>
+<div class="container"> 
+    <div class="row">
+        <div class="col-4">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <!-- <img src="don/theater_don.jpg" class="d-block w-100" alt="don1"> -->
+                      <div style="height: 400px; background-image: url(don/theater_don.jpg); background-size: cover;"></div>
+                      <p style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Донецк</p>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- <img src="don/miner.jpg" class="d-block w-100" alt="don2"> -->
+                    <div style="height: 400px; background-image: url(don/miner.jpg); background-size: cover;"></div>
+                    <p style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Донецк</p>
+                    </div>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <h4  align = "center">Календарь-напоминание украинского<br>пенсионера-переселенца(ВПЛ)</h4>
+            <span class="zagolovok">Календарь-напоминание украинского<br> пенсионера-переселенца(ВПЛ)</span>
+        </div>
+        <div class="col-4">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <!-- <img src="mar/theater_mar.jpg" class="d-block w-100" alt="mar2"> -->
+                        <div style="height: 400px; background-image: url(mar/theater_mar.jpg); background-size: cover;">
+                            <p style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.5);">Мариуполь</p>
+                        </div>
+                      </div>
+                    <div class="carousel-item active">
+                    <!-- <img src="mar/metaler.jpg" class="d-block w-100" alt="mar1"> -->
+                    <div style="height: 400px; background-image: url(mar/metaler.jpg); background-size: cover;">
+                        <p style="text-align: center; color: #fff; background-color: rgba(0, 0, 0, 0.3);">Мариуполь</p>
+                    </div>
+                  </div>
+
+                 
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </div>
+   
+        
+            
+
+    <div class="row">
+        <!-- <div class="col-3">
+            <a href="#" id="pos1">О программе</a>
+        </div> -->
+        <div class="col-3">
+            <a href="#" id="pos1">Настройка и корректировка <br>данных</a>
+        </div>
+        <div class="col-3">
+            <a href="#" id="pos2">Расчет и вывод <br>предупреждений</a>
+        </div>
+        <div class="col-3">
+            <a href="https://urp.ssu.gov.ua/" target="_blank"  id="pos3">Пропуск на пересечение <br>линии разграничения</a>
+        </div>
+        <div class="col-3">
+            <a href="#" id="pos4">Особенности <br>работы</a>
+        </div>
+        
+    </div>
+
+    <div class="about-section">
+        <h2> О программе</h2>
+     Данная программа предназначена для напоминания пенсионеру Украины-внутрене перемещенному лицу (ВПЛ) о:<br>
+            - дате следующей идентификации в Ощадбанке по пенсионной карточке;<br>
+            - сроке замены пенсионной карточки;<br>
+            - дате следующей идентификации в Ощадбанке по социальной карточке (при необходимости);<br>
+            - сроке замены социальной карточки(при необходимости);<br>
+            - дате следующего заявления в управление социальной защиты на помощь по оплате жилья (при необходимости);<br>
+            - дате следующего пересечения линии разграничения на Украину.<br>
+    Напоминания формируются за период, определенный ВПЛ в днях по каждому виду уведомления.<br>
+    Нарушение сроков идентификации или пересечения линии разграничения обычно приводит к потере, как минимум, пенсионных выплат.<br>
+    Имеется возможность посетить сайт СБУ для оформления или проверки состояния пропуска на пересечение линии разграничения.<br>
+    На территории неподконтрольной Украине ВПЛ доступен только один оператор - Водофон, который и на территории самой Украины в зоне проведения ООС(АТО)
+    работает неустойчиво, не говоря уже о неподконтрольной территории. Но без некоторой информации(например, дате следущей идентификации) ВПЛ будет трудно.   </div>
+
+    <section id="kn-pos1" class=" hidden">
+        <h2>Настройка и корректировка данных</h2>
+                                        первый пункт меню
+                                        текст для первого раздела
+
+                                        <script>
+                                            var yearS,mounthS,dayS;
+                                            var dataIdPen;
+                                            //проверка локалстореджа
+                                                  let now=new Date();  
+                                                   var date1 = localStorage.getItem('date1');
+                                                       if(date1 == null)
+                                                   {
+                                                       // alert('Данных нет, перейдите ....');
+                                                       // var dataIdPens== null; 
+                                                   }
+                                                   // console.log(date1);
+                                               
+                                           </script>
+                                           <script type="text/javascript"></script>
+                                       
+                                        </head>
+                                       <body>
+                                        
+                                           <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170893.660380205!2d37.62143515626788!3d47.99026207759188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e0909500919a2d%3A0x36335efdc5856f84!2z0JTQvtC90LXRhtC6LCDQlNC-0L3QtdGG0LrQsNGPINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1583861979622!5m2!1sru!2sua" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
+                                       
+                                           <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                                       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                                       crossorigin="anonymous"></script>
+                                               <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+                                       
+                                       
+                                       
+                                       <h5>Дата следующей идентификации по пенсионной карточке </h5>
+                                        <div class="DataIdPen">
+                                        <!-- <h6> Год________Месяц_______День </h6> -->
+                                               <select name="yearR" id="yearR">  
+                                                   <option> Год </option>
+                                                   <option value="2020" >2020</option>
+                                                   <option value="2021" >2021</option>
+                                                   <option value="2022" >2022</option>
+                                                   <option value="2023" >2023</option>
+                                                   <option value="2024" >2024</option>
+                                               </select>
+                                       <input type="submit" value="выбрать" onclick = "getYear()">
+                                       <script>  
+                                       
+                                       </script>
+                                               <select id="mounthR" >
+                                                   <option> Месяц </option>
+                                                   <option value="1">январь</option>
+                                                   <option value="2">февраль</option>
+                                                   <option value="3">март</option>
+                                                   <option value="4">апрель</option>
+                                                   <option value="5">май</option>
+                                                   <option value="6">июнь</option>
+                                                   <option value="7">июль</option>
+                                                   <option value="8">август</option>
+                                                   <option value="9">сентябрь</option>
+                                                   <option value="10">октябрь</option>
+                                                   <option value="11">ноябрь</option>
+                                                   <option value="12">декабрь</option>
+                                               </select>
+                                               <input type="submit" value="выбрать" onclick = "getMounth()">
+                                       
+                                               <select name=dayR id="dayR">
+                                                   <option> День</option>
+                                                    <!-- <option value="0">не вібрано</option> -->
+                                                   <option value="1">1</option>
+                                                   <option value="2">2</option>
+                                                   <option value="3">3</option>
+                                                   <option value="4">4</option>
+                                                   <option value="5">5</option>
+                                                   <option value="6">6</option>
+                                                   <option value="7">7</option>
+                                                   <option value="8">8</option>
+                                                   <option value="9">9</option> 
+                                                   <option value="10">10</option>
+                                                   <option value="11">11</option>
+                                                   <option value="12">12</option> 
+                                                   <option value="13">13</option>
+                                                   <option value="14">14</option>
+                                                   <option value="15">15</option>  
+                                                   <option value="16">16</option>
+                                                   <option value="17">17</option>
+                                                   <option value="18">18</option>
+                                               </option>
+                                               </select>
+                                               <input type="submit" value="выбрать" onclick = "getDay()">
+                                       
+                                          
+                                               <input type="text" onchange="alert(this.value)">
+                                               <input type="button" value="Ввести">
+                                       
+                                       </div>
+                                       
+                                       <script>
+                                           dataIdPen=yearS+mounthS+dayS;
+                                           console.log("dataIdPen")
+                                           alert(dataIdPen);
+                                       </script>
+                                       <h5>Срок окончания пенсионной карточки </h5>
+                                       <h5>Дата следующей идентификации по социальной карточке </h5>
+                                       <h5>Срок окончания социальной карточки </h5>
+                                       <h5>Дата последнего пересечения линии разграничения с Украины </h5>
+                                       <h5>Дата последнего пересечения линии разграничения с Украины </h5>
+                                       
+                                       
+                                       </body> 
+                                       </html>
+    </section>
+ 
+    <section id="kn-pos2" class=" hidden">
+        <h2>Расчет и вывод предупреждений</h2>
+                                     второй пункт меню
+                                        текст для второго раздела
+    </section>
+
+
+    <section id="kn-pos4" class=" hidden">
+                                         <h2>Особенности работы</h2>
+                                        <h6>Подготовка к работе </h6>
+    <p>Необходим предварительный сбор информации.</p>
+    <p>Дату следующей идентификации в Ощадбанке узнают по телефону Горячей линии. За месяц до этого приходит СМС-уведомление о необходимости
+    идентификации в течении 30 дней. До 2019 года в течении года ВПЛ проходило 4 идентификации в назначенные дни через три месяца. В 2020 году, 
+    если ВПЛ пройдет идентификацию сразу после получения СМС-уведомления, то следущая идентификация будет назначена строго через три месяца.
+    Таким образом, ВПЛ получает вроде большую свободу действий во времени, однако количество идентификаций в году может увеличиться до 6. Если 
+    ВПЛ получает новую банковскую карточку (по окончанию срока действия или по другой причине), то при этом также происходит идентификация, что
+    также влияет на срок следующей.
+    Информация из отделения Ощадбанка после проведения идентификации передается на сервер в Киеве в лучшем случае в конце дня. Загрузка 
+    ее производится на следущий день по получении. Все это означает, что звонить на Горячую линию Ощадбанка надо через несколько дней. При этом 
+    потребуется ввести последние четыре цифры карточки, по которой проверяется дата идентификации. Таким способом можно проверить отсутствие
+    требования на проведение идентификации по социальной карточке. Работники районных отделений Ощадбанка не имеют доступа к информации о сроках 
+    следующей идентификации, хотя и проводят ее.</p>
+    Идентификация по пенсионной карточке - обязательна, по социальной карточке - в случае получения помощи  на оплату проживания и коммунальных
+    услуг и требования Ощадбанка на проведение идентификации. ВПЛ, которые не получают такой помощи или которые получают такую помощь, но к
+    которым нет требований по идентификации по социальной карточке, не контролируют идентификацию по социальной карточке. Но если она есть, то 
+    можно контролировать ее срок окончания.</p>
+    <p>Срок окончания пенсионной и социальной  карточек указаны на них в формате ММ/ГГ (где ММ - порядковый номер месяца окончания карточки,
+    а ГГ - последние две цифры  года). Банковские карточки Ощадбанк подготавливает заранее к сроку их окончания, однако получение новой возможно и
+    после окончания срока старой. Существует возможность получения поступивших денег на карточку, находящуюся в стадии выпуска, посредсвом  общения работников
+    отделения Ощадбанка, где ВПЛ получает карточку, работников Горячей линии, которые присылают по СМС-уведомлению, необходимую информацию. Контроль
+    состояния новой карточки можно видеть в Ощад24 (приложение Ощадбанка для работы в интернете). Фактически только через общение по горячей линии
+    Ощадбанка ВПЛ может как-то повлиять на процесс выпуска новой карточки. По получении новой карточки районным отделением ВПЛ направляют СМС-уведомление</p>
+    <p> Дату пересечения линии разграничения в сторону из Украины надо обязательно запомнить.</p>
+    <p> ВПЛ сам определяет период, за который желает получать напоминания по каждому виду осуществляемых проверок.</p>
+                                        <h6>Последовательность работы</h6>
+    <p>Первичный ввод информации, а потом (в случае изменения ее) осуществляется в позиции меню "Настройка и корректировка данных". <p>
+    <p>В дальнейшем, если информация не изменилась, для получения напоминаний о скорых сроках контролирумых дат, необходим вход в позицию меню "Расчет и вывод предупреждений".<p>
+    <p>В случае, если у ВПЛ еще нет пропуска на пересечение линии разграничения или он хочет уточнить эту инфорацию, то выбирается позиция меню
+    "Пропуск на пересечение линии разграничения" и попадает на сайт СБУ "Реєстр дозволів для переміщення осіб через лінію зіткнення у межах Донецької та
+    Луганської областей". При работе на этом сайте по регистрации на получение пропуска информацию в части "Логін" и "пароль" необходимо обязательно
+    запомнить (для следущих входов на этот сайт). До 2019 года пропуск оформлялся на год. В настоящее время, пропуск после соответствующего дооформления
+     - бессрочный. Но у некоторых ВПЛ остаются следы вроде сектора "М", что приводит к вопросам со стороны СБУ непосредственно на КПП. Такие моменты
+    лучше решать заранее<p>
+    </section>
+                     
+    </div>
+    <footer>
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    Телефоны горячей линии
+                                </div>                              
+                                <div class="col-6"> Ощадбанк  </div>
+                                <div class="col-6">0800210800</div>
+                                <div class="col-6">Министерство социальной политики</div>
+                                <div class="col-6">0800507309</div>
+                                <div class="col-6"> ПФу  </div>
+                                <div class="col-6">0800210800</div>
+                                <div class="col-6">СБУ   </div>
+                                <div class="col-6">0800210800</div>
+                                <div class="col-6"> Пограничники</div>
+                                <div class="col-6">0800210800</div>                                                                      
+                            </div>
+                        <!-- </div> -->
+                    </div>
+     </footer>
+                
+
+
+
+
+ 
+            
+      
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    
+        <script>
+            //переключение меню
+            $('#pos1').on('click', function(e){
+                $('section').addClass('hidden');
+                $('#kn-pos1').removeClass('hidden');
+                $('.about-section').addClass('hidden');
+            });
+            $('#pos2').on('click', function(e){
+                $('section').addClass('hidden');
+                $('#kn-pos2').removeClass('hidden');
+                $('.about-section').addClass('hidden');
+            });
+            $('#pos4').on('click', function(e){
+                $('section').addClass('hidden');
+                $('#kn-pos4').removeClass('hidden');
+                $('.about-section').addClass('hidden');
+            });
+            // $('#pos5').on('click', function(e){
+            //     $('section').addClass('hidden');
+            //     $('#kn-pos5').removeClass('hidden');
+            // });
+            // $('#menu1').on('click', function(e){
+            //     $('section').addClass('hidden');
+            //     $('#pos1').removeClass('hidden');
+            // });
+        </script>            
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="mainras.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body> 
+</html>
+
+<!-- <div class="col-6">
+                                <section id="pos1">
+                                    текст для первого пункта меню
+                                </section>
+                                <section id="pos2" class="hidden">
+                                    текст для второго пункта меню
+                                </section>
+                            </div>
+ 
+ 
+                            <!-- <section id="kn-pos1" >
+                                <h1>Настройка и корректировка данных</h1>
+                                <p>текст для первого раздела</p>
+                                <div class="dates">
+                                   <select>
+                                       <option value="0">не вібрано</option>
+                                       <option value="1">1</option>
+                                       <option value="2">2</option>
+                                       <option value="3">3</option>
+                                   </select>
+                           
+                                   <select>
+                                       <option value="1">январь</option>
+                                       <option value="2">февраль</option>
+                                       <option value="3">март</option>
+                                   </select>
+                               </div>
+                            -->
